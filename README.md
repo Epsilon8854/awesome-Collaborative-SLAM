@@ -51,8 +51,11 @@ In a distributed SLAM system, multiple agents (robots or sensors) work together 
   * **DCL-SLAM**: Distributed Collaborative LiDAR SLAM Framework for a Robotic Swarm, *Sensors, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10375928)] [[Code](https://github.com/PengYu-Team/DCL-SLAM)]
   <!-- ### Multimodal -->
 
-## Platform
+<!-- ## Platform
 
-## Environments
+## Environments -->
 
 ## Datasets
+  * **S3E**: A Large-scale Multimodal Dataset for Collaborative SLAM, *arXiv, 2022* [[Paper](https://arxiv.org/abs/2210.13723)] [[Code](https://github.com/PengYu-Team/S3E)]
+  * **GRACO**: A Multimodal-Heterogeneous Dataset for Ground and Aerial Cooperative Localization and Mapping, *RA-L, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10008011)] [[Code](https://github.com/SYSU-RoboticsLab/GrAco?tab=readme-ov-file#a-multimodal-heterogeneous-dataset-for-ground-and-aerial-cooperative-localization-and-mapping)]
+  * **Kimera-Multi-Data**: Resilient and Distributed Multi-Robot Visual SLAM: Datasets, Experiments, and Lessons Learned  *arxiv, 2023* [[Paper](https://arxiv.org/abs/2304.04362)] [[Code](https://github.com/MIT-SPARK/Kimera-Multi-Data)]
