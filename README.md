@@ -21,13 +21,13 @@ For an overview of **Collabortive SLAM**, checkout the Survey ([Towards Collabor
     - [Lidar](#lidar-1)
     - [Multimodal](#multimodal-1) -->
   - [Platform](#platform)
-  - [Environments](#environments)
-  - [Datasets](#datasets)
+  <!-- - [Environments](#environments)
+  - [Datasets](#datasets) -->
 
 ---
 
 ## Centralized SLAM
-In Centralized SLAM, there is typically a central computational unit or system that processes and integrates all the data collected by various agents.
+All data from individual robots or sensors are sent to a central server or unit. The central server processes the data to create a unified map and determine each robot's location. 
   <!-- ### Visual -->
   * **COVINS-G**: A Generic Back-end for Collaborative Visual-Inertial SLAM, *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9585827)] [[Code](https://github.com/VIS4ROB-lab/covins)]
   <!-- ### Lidar -->
@@ -36,15 +36,15 @@ In Centralized SLAM, there is typically a central computational unit or system t
 
 
 ## Decentralized SLAM
-Decentralized SLAM also involves multiple agents, but it emphasizes the autonomy of each agent in the mapping process. There is no central coordination or data integration point.
-  <!-- ### Visual -->
+Each robot operates independently, creating its own map and determining its own location. Robots may occasionally share map information with others upon encounter.
+   <!-- ### Visual -->
   * **DOOR-SLAM**: Distributed, Online, and Outlier Resilient SLAM for Robotic Teams *RA-L, 2020* [[Paper](https://arxiv.org/abs/1909.12198)] [[Code](https://github.com/MISTLab/DOOR-SLAM)]
   <!-- ### Lidar -->
   <!-- ### Multimodal -->
   * **Swarm-SLAM**:Sparse Decentralized Collaborative Simultaneous Localization and Mapping Framework for Multi-Robot Systems, *RA-L, 2024*. [[Paper](https://arxiv.org/abs/2301.06230)] [[Code](https://github.com/MISTLab/Swarm-SLAM)]
 
 ## Distributed SLAM
-In a distributed SLAM system, multiple agents (robots or sensors) work together to map an environment. Each agent collects data and shares it with others. Therefore, both centralized and decentralized methods can be distributed. In this category, SLAMs that deal with distributed systems regardless of whether they are decentralized or centralized are described.
+A hybrid approach that involves collaborative effort among multiple agents or robots. Robots collect data and perform their own localization and mapping, but also communicate and share information with each other to build a comprehensive global map.
   <!-- ### Visual -->
   <!-- ### Lidar -->
   * **DiSCo-SLAM**: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM With Two-Stage Global-Local Graph Optimization *RA-L, 2022* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9662965)] [[Code](https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM)]
