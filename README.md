@@ -29,6 +29,7 @@ For an overview of **Collabortive SLAM**, checkout the Survey ([Towards Collabor
 ## Centralized SLAM
 All data from individual robots or sensors are sent to a central server or unit. The central server processes the data to create a unified map and determine each robot's location. 
   <!-- ### Visual -->
+  * **CCM-SLAM**: Robust and efficient centralized collaborative monocular simultaneous localization and mapping for robotic team *JFR, 2019* [[Paper](https://www.research-collection.ethz.ch/handle/20.500.11850/313259)] [[Code](https://github.com/VIS4ROB-lab/ccm_slam?tab=readme-ov-file)]
   * **COVINS-G**: A Generic Back-end for Collaborative Visual-Inertial SLAM, *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9585827)] [[Code](https://github.com/VIS4ROB-lab/covins)]
   <!-- ### Lidar -->
 
@@ -47,6 +48,7 @@ Each robot operates independently, creating its own map and determining its own 
 A hybrid approach that involves collaborative effort among multiple agents or robots. Robots collect data and perform their own localization and mapping, but also communicate and share information with each other to build a comprehensive global map.
   <!-- ### Visual -->
   <!-- ### Lidar -->
+  * **Kimera-multi**: Robust, distributed, dense metric-semantic slam for multi-robot systems *T-RO* [[Paper](http://ieeexplore.ieee.org/abstract/document/9686955)] [[Code](https://github.com/MIT-SPARK/Kimera-Multi)]
   * **DiSCo-SLAM**: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM With Two-Stage Global-Local Graph Optimization *RA-L, 2022* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9662965)] [[Code](https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM)]
   * **DCL-SLAM**: Distributed Collaborative LiDAR SLAM Framework for a Robotic Swarm, *Sensors, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10375928)] [[Code](https://github.com/PengYu-Team/DCL-SLAM)]
   <!-- ### Multimodal -->
