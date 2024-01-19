@@ -20,9 +20,9 @@ For an overview of **Collabortive SLAM**, checkout the Survey ([Towards Collabor
     <!-- - [Visual](#visual-1)
     - [Lidar](#lidar-1)
     - [Multimodal](#multimodal-1) -->
-  - [Platform](#platform)
-  <!-- - [Environments](#environments)
-  - [Datasets](#datasets) -->
+  <!-- - [Platform](#platform) -->
+  <!-- <!-- - [Environments](#environments) -->
+  - [Datasets](#datasets)
 
 ---
 
