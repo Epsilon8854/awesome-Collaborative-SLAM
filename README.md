@@ -11,18 +11,16 @@ For an overview of **Collabortive SLAM**, checkout the Survey ([Towards Collabor
 ---
 
 ## Overview
-  - [Overview](#overview)
+
   - [Centralized SLAM](#centralized-slam)
-    <!-- - [Visual](#visual)
-    - [Lidar](#lidar)
-    - [Multimodal](#multimodal) -->
+
   - [Decentralized SLAM](#decentralized-slam)
-    <!-- - [Visual](#visual-1)
-    - [Lidar](#lidar-1)
-    - [Multimodal](#multimodal-1) -->
+
+  - [Distributed SLAM](#distributed-slam)
   <!-- - [Platform](#platform) -->
   <!-- <!-- - [Environments](#environments) -->
   - [Datasets](#datasets)
+
 
 ---
 
