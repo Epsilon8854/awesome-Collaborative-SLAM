@@ -31,6 +31,7 @@ All data from individual robots or sensors are sent to a central server or unit.
   <!-- ### Visual -->
   * **CCM-SLAM**: Robust and efficient centralized collaborative monocular simultaneous localization and mapping for robotic team *JFR, 2019* [[Paper](https://www.research-collection.ethz.ch/handle/20.500.11850/313259)] [[Code](https://github.com/VIS4ROB-lab/ccm_slam?tab=readme-ov-file)]
   * **COVINS-G**: A Generic Back-end for Collaborative Visual-Inertial SLAM, *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9585827)] [[Code](https://github.com/VIS4ROB-lab/covins)]
+  * **CP-SLAM**: Collaborative Neural Point-based SLAM System *arxiv 2023* [[Paper](https://arxiv.org/abs/2311.08013)] [[Code](https://github.com/VIS4ROB-lab/covins)]
   <!-- ### Lidar -->
 
   <!-- ### Multimodal -->
@@ -40,8 +41,11 @@ All data from individual robots or sensors are sent to a central server or unit.
 Each robot operates independently, creating its own map and determining its own location. Robots may occasionally share map information with others upon encounter.
    <!-- ### Visual -->
   * **DOOR-SLAM**: Distributed, Online, and Outlier Resilient SLAM for Robotic Teams *RA-L, 2020* [[Paper](https://arxiv.org/abs/1909.12198)] [[Code](https://github.com/MISTLab/DOOR-SLAM)]
+  * CoVOR-SLAM: Cooperative SLAM using Visual Odometry and Ranges for Multi-Robot Systems *arxiv 2023*[[paper](https://arxiv.org/abs/2311.12580)]
+
   <!-- ### Lidar -->
   <!-- ### Multimodal -->
+  
   * **Swarm-SLAM**:Sparse Decentralized Collaborative Simultaneous Localization and Mapping Framework for Multi-Robot Systems, *RA-L, 2024*. [[Paper](https://arxiv.org/abs/2301.06230)] [[Code](https://github.com/MISTLab/Swarm-SLAM)]
 
 ## Distributed SLAM
