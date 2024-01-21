@@ -45,6 +45,7 @@ Each robot operates independently, creating its own map and determining its own 
   <!-- ### Multimodal -->
   
   * **Swarm-SLAM**:Sparse Decentralized Collaborative Simultaneous Localization and Mapping Framework for Multi-Robot Systems, *RA-L, 2024*. [[Paper](https://arxiv.org/abs/2301.06230)] [[Code](https://github.com/MISTLab/Swarm-SLAM)]
+  * Cross-Agent Relocalization for Decentralized Collaborative SLAM, *ICRA, 2023*. [[Paper](https://ieeexplore.ieee.org/abstract/document/10160941)] [[Code](https://github.com/VIS4ROB-lab/decoSLAM)]
 
 ## Distributed SLAM
 In a distributed system, the processing is spread across multiple nodes or agents. Robots collect data and perform their own localization and mapping, but also communicate and share information with each other to build a comprehensive global map. This could be peer-to-peer or via a central hub.
