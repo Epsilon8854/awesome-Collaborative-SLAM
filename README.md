@@ -57,6 +57,7 @@ In a distributed system, the processing is spread across multiple nodes or agent
   * **DCL-SLAM**: Distributed Collaborative LiDAR SLAM Framework for a Robotic Swarm, *Sensors, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10375928)] [[Code](https://github.com/PengYu-Team/DCL-SLAM)]
   * **RING++**: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map, *T-RO, 2023*[[Paper](https://ieeexplore.ieee.org/document/10224330)] [[Code1](https://github.com/lus6-Jenny/RING)] [[Code2](https://github.com/MaverickPeter/MR_SLAM)] 
   * **IRBCD** Distributed Pose-graph Optimization with Multi-level Partitioning for Collaborative SLAM, *arxiv, 2024*[[Paper](https://arxiv.org/abs/2401.01657)]
+  * Multirobot Collaborative Monocular SLAM Utilizing Rendezvous, *T-RO, 2021* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9381949)]
   <!-- ### Multimodal -->
 
 <!-- ## Platform
