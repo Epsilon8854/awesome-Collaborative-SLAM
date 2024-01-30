@@ -39,7 +39,7 @@ All data from individual robots or sensors are sent to a central server or unit.
 Each robot operates independently, creating its own map and determining its own location. Robots may occasionally share map information with others upon encounter.
    <!-- ### Visual -->
   * **DOOR-SLAM**: Distributed, Online, and Outlier Resilient SLAM for Robotic Teams, *RA-L, 2020* [[Paper](https://arxiv.org/abs/1909.12198)] [[Code](https://github.com/MISTLab/DOOR-SLAM)]
-  * **CoVOR-SLAM**: Cooperative SLAM using Visual Odometry and Ranges for Multi-Robot Systems, *arxiv 2023*[[paper](https://arxiv.org/abs/2311.12580)]
+  * **CoVOR-SLAM**: Cooperative SLAM using Visual Odometry and Ranges for Multi-Robot Systems, *arxiv, 2023*[[paper](https://arxiv.org/abs/2311.12580)]
 
   <!-- ### Lidar -->
   <!-- ### Multimodal -->
@@ -65,7 +65,7 @@ In a distributed system, the processing is spread across multiple nodes or agent
 ## Environments -->
 
 ## Datasets
-* **UTIAS** The UTIAS multi-robot cooperative localization and mapping dataset. *IJRR 2011* [[Paper](https://journals.sagepub.com/doi/abs/10.1177/0278364911398404] [[Project_page](http://asrl.utias.utoronto.ca/datasets/mrclam/)]
+* **UTIAS** The UTIAS multi-robot cooperative localization and mapping dataset. *IJRR, 2011* [[Paper](https://journals.sagepub.com/doi/abs/10.1177/0278364911398404] [[Project_page](http://asrl.utias.utoronto.ca/datasets/mrclam/)]
  * **Airmuseum**: a heterogeneous multi-robot dataset for stereo-visual and inertial simultaneous localization and mapping. *MFI, 2020* [[Paper](https://ieeexplore.ieee.org/abstract/document/9235257/)] [[Code](https://github.com/AirMuseumDataset/AirMuseumDataset)]
   * **S3E**: A Large-scale Multimodal Dataset for Collaborative SLAM, *arXiv, 2022* [[Paper](https://arxiv.org/abs/2210.13723)] [[Code](https://github.com/PengYu-Team/S3E)]
   * **GRACO**: A Multimodal-Heterogeneous Dataset for Ground and Aerial Cooperative Localization and Mapping, *RA-L, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10008011)] [[Code](https://github.com/SYSU-RoboticsLab/GrAco?tab=readme-ov-file#a-multimodal-heterogeneous-dataset-for-ground-and-aerial-cooperative-localization-and-mapping)]
