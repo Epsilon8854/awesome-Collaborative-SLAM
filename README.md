@@ -27,6 +27,7 @@ For an overview of **Collabortive SLAM**, checkout the Survey ([Towards Collabor
 ## Centralized SLAM
 All data from individual robots or sensors are sent to a central server or unit. The central server processes the data to create a unified map and determine each robot's location. 
   <!-- ### Visual -->
+  
   * **CCM-SLAM**: Robust and efficient centralized collaborative monocular simultaneous localization and mapping for robotic team *JFR, 2019* [[Paper](https://www.research-collection.ethz.ch/handle/20.500.11850/313259)] [[Code](https://github.com/VIS4ROB-lab/ccm_slam?tab=readme-ov-file)]
   * **COVINS-G**: A Generic Back-end for Collaborative Visual-Inertial SLAM, *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9585827)] [[Code](https://github.com/VIS4ROB-lab/covins)]
   * **CP-SLAM**: Collaborative Neural Point-based SLAM System *arxiv 2023* [[Paper](https://arxiv.org/abs/2311.08013)] [[Code](https://github.com/VIS4ROB-lab/covins)]
@@ -39,7 +40,7 @@ All data from individual robots or sensors are sent to a central server or unit.
 Each robot operates independently, creating its own map and determining its own location. Robots may occasionally share map information with others upon encounter.
    <!-- ### Visual -->
   * **DOOR-SLAM**: Distributed, Online, and Outlier Resilient SLAM for Robotic Teams, *RA-L, 2020* [[Paper](https://arxiv.org/abs/1909.12198)] [[Code](https://github.com/MISTLab/DOOR-SLAM)]
-  * **CoVOR-SLAM**: Cooperative SLAM using Visual Odometry and Ranges for Multi-Robot Systems, *arxiv, 2023*[[paper](https://arxiv.org/abs/2311.12580)]
+  * **CoVOR-SLAM**: Cooperative SLAM using Visual Odometry and Ranges for Multi-Robot Systems, *arxiv, 2023*[[Paper](https://arxiv.org/abs/2311.12580)]
 
   <!-- ### Lidar -->
   <!-- ### Multimodal -->
@@ -51,6 +52,7 @@ Each robot operates independently, creating its own map and determining its own 
 In a distributed system, the processing is spread across multiple nodes or agents. Robots collect data and perform their own localization and mapping, but also communicate and share information with each other to build a comprehensive global map. This could be peer-to-peer or via a central hub.
   <!-- ### Visual -->
   <!-- ### Lidar -->
+  * **DiSCo-SLAM**: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM With Two-Stage Global-Local Graph Optimization *RA-L*[[Paper](https://ieeexplore.ieee.org/abstract/document/9662965)] [[Code](https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM)]
   * **Kimera-multi**: Robust, distributed, dense metric-semantic slam for multi-robot systems, *T-RO, 2022* [[Paper](http://ieeexplore.ieee.org/abstract/document/9686955)] [[Code](https://github.com/MIT-SPARK/Kimera-Multi)]
   * **DiSCo-SLAM**: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM With Two-Stage Global-Local Graph Optimization, *RA-L, 2022* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9662965)] [[Code](https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM)]
   * **SEAL**: Simultaneous Exploration and Localization in Multi-Robot Systems, *arxiv, 2023* [[Paper](https://arxiv.org/pdf/2306.12623.pdf)] 
