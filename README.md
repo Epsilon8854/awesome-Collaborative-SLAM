@@ -37,8 +37,10 @@ All data from individual robots or sensors are sent to a central server or unit.
 
 
 ## Decentralized SLAM
-Each robot operates independently, creating its own map and determining its own location. Robots may occasionally share map information with others upon encounter.
+Each robot operates independently, creating its own map and determining its own location. Robots may occasionally share map information with others upon encounter. *ICRA, 2018* [[Paper](https://ieeexplore.ieee.org/abstract/document/8461155)] [[Code](https://github.com/uzh-rpg/dslam_open)]
    <!-- ### Visual -->
+  * **Data-Efficient Decentralized Visual SLAM**
+
   * **DOOR-SLAM**: Distributed, Online, and Outlier Resilient SLAM for Robotic Teams, *RA-L, 2020* [[Paper](https://arxiv.org/abs/1909.12198)] [[Code](https://github.com/MISTLab/DOOR-SLAM)]
   * **CoVOR-SLAM**: Cooperative SLAM using Visual Odometry and Ranges for Multi-Robot Systems, *arxiv, 2023*[[Paper](https://arxiv.org/abs/2311.12580)]
 
