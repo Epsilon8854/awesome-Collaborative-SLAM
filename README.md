@@ -54,14 +54,16 @@ Each robot operates independently, creating its own map and determining its own 
 In a distributed system, the processing is spread across multiple nodes or agents. Robots collect data and perform their own localization and mapping, but also communicate and share information with each other to build a comprehensive global map. This could be peer-to-peer or via a central hub.
   <!-- ### Visual -->
   <!-- ### Lidar -->
-  * **DiSCo-SLAM**: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM With Two-Stage Global-Local Graph Optimization *RA-L*[[Paper](https://ieeexplore.ieee.org/abstract/document/9662965)] [[Code](https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM)]
+  * **DiSCo-SLAM**: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM With Two-Stage Global-Local Graph Optimization *RA-L, 2021*[[Paper](https://ieeexplore.ieee.org/abstract/document/9662965)] [[Code](https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM)]
+  * Multirobot Collaborative Monocular SLAM Utilizing Rendezvous, *T-RO, 2021* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9381949)]
   * **Kimera-multi**: Robust, distributed, dense metric-semantic slam for multi-robot systems, *T-RO, 2022* [[Paper](http://ieeexplore.ieee.org/abstract/document/9686955)] [[Code](https://github.com/MIT-SPARK/Kimera-Multi)]
   * **DiSCo-SLAM**: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM With Two-Stage Global-Local Graph Optimization, *RA-L, 2022* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9662965)] [[Code](https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM)]
+  * **DRACo-SLAM**: Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams [[Paper](https://ieeexplore.ieee.org/abstract/document/9981822)] [[Code](https://github.com/jake3991/draco-slam)]
   * **SEAL**: Simultaneous Exploration and Localization in Multi-Robot Systems, *arxiv, 2023* [[Paper](https://arxiv.org/pdf/2306.12623.pdf)] 
   * **DCL-SLAM**: Distributed Collaborative LiDAR SLAM Framework for a Robotic Swarm, *Sensors, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10375928)] [[Code](https://github.com/PengYu-Team/DCL-SLAM)]
   * **RING++**: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map, *T-RO, 2023*[[Paper](https://ieeexplore.ieee.org/document/10224330)] [[Code1](https://github.com/lus6-Jenny/RING)] [[Code2](https://github.com/MaverickPeter/MR_SLAM)] 
+  * A Robot Web for DistributedMany-Device Localization *T-RO 2023* [[Paper](https://ieeexplore.ieee.org/abstract/document/10286058)]
   * **IRBCD** Distributed Pose-graph Optimization with Multi-level Partitioning for Collaborative SLAM, *arxiv, 2024*[[Paper](https://arxiv.org/abs/2401.01657)]
-  * Multirobot Collaborative Monocular SLAM Utilizing Rendezvous, *T-RO, 2021* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9381949)]
   <!-- ### Multimodal -->
 
 <!-- ## Platform
@@ -69,7 +71,7 @@ In a distributed system, the processing is spread across multiple nodes or agent
 ## Environments -->
 
 ## Datasets
-* **UTIAS** The UTIAS multi-robot cooperative localization and mapping dataset. *IJRR, 2011* [[Paper](https://journals.sagepub.com/doi/abs/10.1177/0278364911398404] [[Project_page](http://asrl.utias.utoronto.ca/datasets/mrclam/)]
+ * **UTIAS** The UTIAS multi-robot cooperative localization and mapping dataset. *IJRR, 2011* [[Paper](https://journals.sagepub.com/doi/abs/10.1177/0278364911398404] [[Project_page](http://asrl.utias.utoronto.ca/datasets/mrclam/)]
  * **Airmuseum**: a heterogeneous multi-robot dataset for stereo-visual and inertial simultaneous localization and mapping. *MFI, 2020* [[Paper](https://ieeexplore.ieee.org/abstract/document/9235257/)] [[Code](https://github.com/AirMuseumDataset/AirMuseumDataset)]
 
  * Ford Multi-AV Seasonal Dataset, *IJRR, 2020* [[Paper](https://github.com/Ford/AVData)] [[Code](https://journals.sagepub.com/doi/full/10.1177/0278364920961451)]
