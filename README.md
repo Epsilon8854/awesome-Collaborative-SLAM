@@ -30,6 +30,7 @@ All data from individual robots or sensors are sent to a central server or unit.
   
   * **CCM-SLAM**: Robust and efficient centralized collaborative monocular simultaneous localization and mapping for robotic team *JFR, 2019* [[Paper](https://www.research-collection.ethz.ch/handle/20.500.11850/313259)] [[Code](https://github.com/VIS4ROB-lab/ccm_slam?tab=readme-ov-file)]
   * **COVINS-G**: A Generic Back-end for Collaborative Visual-Inertial SLAM, *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9585827)] [[Code](https://github.com/VIS4ROB-lab/covins)]
+  * Robust Map Fusion with Visual Attention Utilizing Multi-agent Rendezvous  *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10161072)]
   * **CP-SLAM**: Collaborative Neural Point-based SLAM System *arxiv 2023* [[Paper](https://arxiv.org/abs/2311.08013)] [[Code](https://github.com/VIS4ROB-lab/covins)]
   <!-- ### Lidar -->
 
