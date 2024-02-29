@@ -6,7 +6,7 @@ This repo contains a curative list of **Collaborative SLAM on multi-agent system
 
 If you find this repository useful, please consider [citing](#citation) and STARing this list. Feel free to share this list with others!
 
-For an overview of **Collabortive SLAM**, checkout the Survey ([Towards Collaborative Simultaneous Localization and Mapping: a Survey of the Current Research Landscape](https://arxiv.org/abs/2108.08325) and  and Collection ([awesome-NeRF](https://github.com/yenchenlin/awesome-NeRF))
+For an overview of **Collabortive SLAM**, checkout the Survey ([Towards Collaborative Simultaneous Localization and Mapping: a Survey of the Current Research Landscape](https://arxiv.org/abs/2108.08325) 
 
 ---
 
@@ -38,9 +38,9 @@ All data from individual robots or sensors are sent to a central server or unit.
 
 
 ## Decentralized SLAM
-Each robot operates independently, creating its own map and determining its own location. Robots may occasionally share map information with others upon encounter. *ICRA, 2018* [[Paper](https://ieeexplore.ieee.org/abstract/document/8461155)] [[Code](https://github.com/uzh-rpg/dslam_open)]
+Each robot operates independently, creating its own map and determining its own location. Robots may occasionally share map information with others upon encounter.
    <!-- ### Visual -->
-  * **Data-Efficient Decentralized Visual SLAM**
+  * **Data-Efficient Decentralized Visual SLAM**  *ICRA, 2018* [[Paper](https://ieeexplore.ieee.org/abstract/document/8461155)] [[Code](https://github.com/uzh-rpg/dslam_open)]
 
   * **DOOR-SLAM**: Distributed, Online, and Outlier Resilient SLAM for Robotic Teams, *RA-L, 2020* [[Paper](https://arxiv.org/abs/1909.12198)] [[Code](https://github.com/MISTLab/DOOR-SLAM)]
   * **CoVOR-SLAM**: Cooperative SLAM using Visual Odometry and Ranges for Multi-Robot Systems, *arxiv, 2023*[[Paper](https://arxiv.org/abs/2311.12580)]
@@ -52,7 +52,7 @@ Each robot operates independently, creating its own map and determining its own 
   * **Multi S-Graphs**:an Efficient Real-time Distributed Semantic-Relational Collaborative SLAM, *arxiv, 2024* [[Paper](https://arxiv.org/abs/2401.05152)] [[Code](https://github.com/snt-arg/multi_s_graphs_docker)]
 
 ## Distributed SLAM
-In a distributed system, the processing is spread across multiple nodes or agents. Robots collect data and perform their own localization and mapping, but also communicate and share information with each other to build a comprehensive global map. This could be peer-to-peer or via a central hub.
+In a distributed system, the processing is spread across multiple nodes or agents. Robots collect data and perform their own localization and mapping, but also communicate and share information with each other to build a comprehensive global map. This could be peer-to-peer or via a centra l hub.
   <!-- ### Visual -->
   <!-- ### Lidar -->
   * **DiSCo-SLAM**: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM With Two-Stage Global-Local Graph Optimization *RA-L, 2021*[[Paper](https://ieeexplore.ieee.org/abstract/document/9662965)] [[Code](https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM)]
