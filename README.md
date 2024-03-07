@@ -82,3 +82,4 @@ In a distributed system, the processing is spread across multiple nodes or agent
   
   * **Kimera-Multi**: Resilient and Distributed Multi-Robot Visual SLAM: Datasets, Experiments, and Lessons Learned, *arxiv, 2023* [[Paper](https://arxiv.org/abs/2304.04362)] [[Project_page](https://github.com/MIT-SPARK/Kimera-Multi-Data)]
   * **Customizable-SLAM**: Customizable Perturbation Synthesis for Robust SLAM Benchmarking, *arxiv, 2024* [[Paper](https://arxiv.org/abs/2402.08125)] [[Code](https://github.com/Xiaohao-Xu/SLAM-under-Perturbation)] 
+  * **SubT-MRS Dataset**: Pushing SLAM Towards All-weather Environments *CVPR 2024* [[Paper](https://arxiv.org/pdf/2307.07607.pdf)] [[Project_page](https://sairlab.org/datasets/subtmrs)]
