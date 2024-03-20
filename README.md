@@ -33,10 +33,10 @@ All data from individual robots or sensors are sent to a central server or unit.
   * Robust Map Fusion with Visual Attention Utilizing Multi-agent Rendezvous  *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10161072)]
   * **CP-SLAM**: Collaborative Neural Point-based SLAM System *arxiv 2023* [[Paper](https://arxiv.org/abs/2311.08013)] [[Code](https://github.com/VIS4ROB-lab/covins)]
   <!-- ### Lidar -->
-
+  * **CoLRIO**: LiDAR-Ranging-Inertial Centralized State Estimation for Robotic Swarms *ICRA 2024* [[Paper](https://arxiv.org/abs/2402.11790)] [[Code](https://github.com/PengYu-team/Co-LRIO)]
   <!-- ### Multimodal -->
 
-
+  
 ## Decentralized SLAM
 Each robot operates independently, creating its own map and determining its own location. Robots may occasionally share map information with others upon encounter.
    <!-- ### Visual -->
