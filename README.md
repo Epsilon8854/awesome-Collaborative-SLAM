@@ -28,10 +28,12 @@ For an overview of **Collabortive SLAM**, checkout the Survey ([Towards Collabor
 All data from individual robots or sensors are sent to a central server or unit. The central server processes the data to create a unified map and determine each robot's location. 
   * **CCM-SLAM**: Robust and efficient centralized collaborative monocular simultaneous localization and mapping for robotic team *JFR, 2019* [[Paper](https://www.research-collection.ethz.ch/handle/20.500.11850/313259)] [[Code](https://github.com/VIS4ROB-lab/ccm_slam?tab=readme-ov-file)]
   * **COVINS-G**: A Generic Back-end for Collaborative Visual-Inertial SLAM, *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9585827)] [[Code](https://github.com/VIS4ROB-lab/covins)]
-  * Robust Map Fusion with Visual Attention Utilizing Multi-agent Rendezvous  *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10161072)]
-  * **CP-SLAM**: Collaborative Neural Point-based SLAM System *arxiv 2023* [[Paper](https://arxiv.org/abs/2311.08013)] [[Code](https://github.com/VIS4ROB-lab/covins)]
-  * **CoLRIO**: LiDAR-Ranging-Inertial Centralized State Estimation for Robotic Swarms *ICRA 2024* [[Paper](https://arxiv.org/abs/2402.11790)] [[Code](https://github.com/PengYu-team/Co-LRIO)]
-
+  * Robust Map Fusion with Visual Attention Utilizing Multi-agent Rendezvous,  *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10161072)]
+  * **AdaptSLAM**: Edge-Assisted Adaptive SLAM with Resource Constraints via Uncertainty Minimization, *INFOCOM, 2023* [[Paper](https://arxiv.org/abs/2301.04620)] [[Code](https://github.com/i3tyc/AdaptSLAM)]
+  * **CP-SLAM**: Collaborative Neural Point-based SLAM System, *NeurIPS, 2024* [[Paper](https://arxiv.org/abs/2311.08013)] [[Code](https://github.com/VIS4ROB-lab/covins)]
+  * **CoLRIO**: LiDAR-Ranging-Inertial Centralized State Estimation for Robotic Swarms, *ICRA, 2024* [[Paper](https://arxiv.org/abs/2402.11790)] [[Code](https://github.com/PengYu-team/Co-LRIO)]
+  * Edge-Assisted Multi-Robot Visual-Inertial SLAM With Efficient Communication  *T-ASE, 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10472967)]
+  * **CCMD-SLAM**: Communication-Efficient Centralized Multi-Robot Dense SLAM with Real-Time Point Cloud Maintenance *TIM, 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10530544)]
   
 ## Decentralized SLAM
 Each robot operates independently, creating its own map and determining its own location. Robots may occasionally share map information with others upon encounter.
@@ -42,7 +44,7 @@ Each robot operates independently, creating its own map and determining its own 
 
   * Cross-Agent Relocalization for Decentralized Collaborative SLAM, *ICRA, 2023*. [[Paper](https://ieeexplore.ieee.org/abstract/document/10160941)] [[Code](https://github.com/VIS4ROB-lab/decoSLAM)]  
   * **Swarm-SLAM**:Sparse Decentralized Collaborative Simultaneous Localization and Mapping Framework for Multi-Robot Systems, *RA-L, 2024*. [[Paper](https://arxiv.org/abs/2301.06230)] [[Code](https://github.com/MISTLab/Swarm-SLAM)]
-  * **Multi S-Graphs**:an Efficient Real-time Distributed Semantic-Relational Collaborative SLAM, *arxiv, 2024* [[Paper](https://arxiv.org/abs/2401.05152)] [[Code](https://github.com/snt-arg/multi_s_graphs_docker)]
+  * **Multi S-Graphs**:an Efficient Real-time Distributed Semantic-Relational Collaborative SLAM, *RA-L, 2024* [[Paper](https://arxiv.org/abs/2401.05152)] [[Code](https://github.com/snt-arg/multi_s_graphs_docker)]
 
 ## Distributed SLAM
 In a distributed system, the processing is spread across multiple nodes or agents. Robots collect data and perform their own localization and mapping, but also communicate and share information with each other to build a comprehensive global map. This could be peer-to-peer or via a central hub.
