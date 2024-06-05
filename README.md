@@ -27,6 +27,7 @@ For an overview of **Collabortive SLAM**, checkout the Survey ([Towards Collabor
 ## Centralized SLAM
 All data from individual robots or sensors are sent to a central server or unit. The central server processes the data to create a unified map and determine each robot's location. 
   * **CCM-SLAM**: Robust and efficient centralized collaborative monocular simultaneous localization and mapping for robotic team *JFR, 2019* [[Paper](https://www.research-collection.ethz.ch/handle/20.500.11850/313259)] [[Code](https://github.com/VIS4ROB-lab/ccm_slam?tab=readme-ov-file)]
+  * **Edge robotics**: Edge-computing-accelerated multirobot simultaneous localization and mapping. *IoT-J, 2022* [[Paper](https://ieeexplore.ieee.org/abstract/document/9693970)]
   * **COVINS-G**: A Generic Back-end for Collaborative Visual-Inertial SLAM, *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9585827)] [[Code](https://github.com/VIS4ROB-lab/covins)]
   * Robust Map Fusion with Visual Attention Utilizing Multi-agent Rendezvous,  *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10161072)]
   * **AdaptSLAM**: Edge-Assisted Adaptive SLAM with Resource Constraints via Uncertainty Minimization, *INFOCOM, 2023* [[Paper](https://arxiv.org/abs/2301.04620)] [[Code](https://github.com/i3tyc/AdaptSLAM)]
