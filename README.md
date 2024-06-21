@@ -84,4 +84,4 @@ In a distributed system, the processing is spread across multiple nodes or agent
 
 ## Submodules
 - Visual Place Recognition
-  * Collaborative Visual Place Recognition through Federated Learning *CVPR 2024" [[Paper](https://openaccess.thecvf.com/content/CVPR2024W/FedVision-2024/html/Dutto_Collaborative_Visual_Place_Recognition_through_Federated_Learning_CVPRW_2024_paper.html)] 
+  * Collaborative Visual Place Recognition through Federated Learning *CVPR 2024* [[Paper](https://openaccess.thecvf.com/content/CVPR2024W/FedVision-2024/html/Dutto_Collaborative_Visual_Place_Recognition_through_Federated_Learning_CVPRW_2024_paper.html)] 
