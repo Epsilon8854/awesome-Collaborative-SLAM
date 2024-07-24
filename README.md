@@ -48,7 +48,7 @@ Each robot operates independently, creating its own map and determining its own 
   * **Swarm-SLAM**:Sparse Decentralized Collaborative Simultaneous Localization and Mapping Framework for Multi-Robot Systems, *RA-L, 2024*. [[Paper](https://arxiv.org/abs/2301.06230)] [[Code](https://github.com/MISTLab/Swarm-SLAM)]
   * **Multi S-Graphs**:an Efficient Real-time Distributed Semantic-Relational Collaborative SLAM, *RA-L, 2024* [[Paper](https://arxiv.org/abs/2401.05152)] [[Code](https://github.com/snt-arg/multi_s_graphs_docker)]
   * Decentralized state estimation: An approach using pseudomeasurements and preintegration *IJRR, 2024* [[Paper](https://journals.sagepub.com/doi/full/10.1177/02783649241230993)] 
-
+  * SlideSLAM: Sparse, Lightweight, Decentralized Metric-Semantic SLAM for Multi-Robot Navigation *arxiv, 2024* [[Paper](https://arxiv.org/pdf/2406.17249)] 
 
 ## Distributed SLAM
 In a distributed system, the processing is spread across multiple nodes or agents. Robots collect data and perform their own localization and mapping, but also communicate and share information with each other to build a comprehensive global map. This could be peer-to-peer or via a central hub.
