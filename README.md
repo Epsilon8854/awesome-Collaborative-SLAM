@@ -35,6 +35,7 @@ All data from individual robots or sensors are sent to a central server or unit.
   * **CoLRIO**: LiDAR-Ranging-Inertial Centralized State Estimation for Robotic Swarms, *ICRA, 2024* [[Paper](https://arxiv.org/abs/2402.11790)] [[Code](https://github.com/PengYu-team/Co-LRIO)]
   * Edge-Assisted Multi-Robot Visual-Inertial SLAM With Efficient Communication  *T-ASE, 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10472967)]
   * **CCMD-SLAM**: Communication-Efficient Centralized Multi-Robot Dense SLAM with Real-Time Point Cloud Maintenance *TIM, 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10530544)]
+  * **CMD-SLAM**: A Fast Low-bandwidth Centralized Multi-robot Direct Stereo SLAM *IV, 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10588625)]
   
 ## Decentralized SLAM
 Each robot operates independently, creating its own map and determining its own location. Robots may occasionally share map information with others upon encounter.
