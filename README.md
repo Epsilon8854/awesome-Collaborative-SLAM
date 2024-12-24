@@ -54,7 +54,7 @@ Each robot operates independently, creating its own map and determining its own 
   * Decentralized state estimation: An approach using pseudomeasurements and preintegration *IJRR, 2024* [[Paper](https://journals.sagepub.com/doi/full/10.1177/02783649241230993)] [[Code](https://github.com/XuRobotics/SLIDE_SLAM)]
   * **SlideSLAM**: Sparse, Lightweight, Decentralized Metric-Semantic SLAM for Multi-Robot Navigation *arxiv, 2024* [[Paper](https://arxiv.org/pdf/2406.17249)] 
   * **Swarm-LIO2**: Decentralized, Efficient LiDAR-inertial Odometry for UAV Swarms  *arxiv, 2024* [[Paper](https://arxiv.org/abs/2409.17798)] [[Code](https://github.com/hku-mars/Swarm-LIO2)]
-  
+
 ## Distributed SLAM
 In a distributed system, the processing is spread across multiple nodes or agents. Robots collect data and perform their own localization and mapping, but also communicate and share information with each other to build a comprehensive global map. This could be peer-to-peer or via a central hub.
   * **CoSLAM**: Collaborative Visual SLAM in Dynamic Environments *TPAMI, 2013*[[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6193110)] [[Code](https://github.com/danping/CoSLAM?tab=readme-ov-file)]
@@ -92,4 +92,4 @@ In a distributed system, the processing is spread across multiple nodes or agent
 
 ## Submodules
 - Visual Place Recognition
-  * Collaborative Visual Place Recognition through Federated Learning *CVPR 2024* [[Paper](https://openaccess.thecvf.com/content/CVPR2024W/FedVision-2024/html/Dutto_Collaborative_Visual_Place_Recognition_through_Federated_Learning_CVPRW_2024_paper.html)] 
+  * Collaborative Visual Place Recognition through Federated Learning *CVPRW 2024* [[Paper](https://openaccess.thecvf.com/content/CVPR2024W/FedVision-2024/html/Dutto_Collaborative_Visual_Place_Recognition_through_Federated_Learning_CVPRW_2024_paper.html)] 
