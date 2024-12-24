@@ -65,7 +65,7 @@ In a distributed system, the processing is spread across multiple nodes or agent
   * A Robot Web for DistributedMany-Device Localization *T-RO 2023* [[Paper](https://ieeexplore.ieee.org/abstract/document/10286058)]
   * **IRBCD** Distributed Pose-graph Optimization with Multi-level Partitioning for Collaborative SLAM, *arxiv, 2024* [[Paper](https://arxiv.org/abs/2401.01657)]
   * **Di-NeRF**: Distributed NeRF for Multi-Robot Collaborative Learning with Unknown Relative Poses *arxiv, 2024* [[Paper](https://arxiv.org/abs/2402.01485)]
-
+  * **MAGiC-SLAM**: Multi-Agent Gaussian Globally Consistent SLAM  *arxiv, 2024* [[Paper](https://arxiv.org/abs/2411.16785)]
 
   <!-- ### Multimodal -->
 
@@ -84,6 +84,7 @@ In a distributed system, the processing is spread across multiple nodes or agent
   * **Kimera-Multi**: Resilient and Distributed Multi-Robot Visual SLAM: Datasets, Experiments, and Lessons Learned, *arxiv, 2023* [[Paper](https://arxiv.org/abs/2304.04362)] [[Project_page](https://github.com/MIT-SPARK/Kimera-Multi-Data)]
   * **Customizable-SLAM**: Customizable Perturbation Synthesis for Robust SLAM Benchmarking, *arxiv, 2024* [[Paper](https://arxiv.org/abs/2402.08125)] [[Code](https://github.com/Xiaohao-Xu/SLAM-under-Perturbation)] 
   * **SubT-MRS Dataset**: Pushing SLAM Towards All-weather Environments *CVPR 2024* [[Paper](https://arxiv.org/pdf/2307.07607.pdf)] [[Project_page](https://sairlab.org/datasets/subtmrs)]
+  * **CSE-Dataset** A Benchmark Dataset for Collaborative SLAM in Service Environments [[Paper](https://arxiv.org/abs/2411.14775)] [[Code](https://github.com/vision3d-lab/CSE_Dataset)]
 
 ## Submodules
 - Visual Place Recognition
