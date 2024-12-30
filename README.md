@@ -28,8 +28,8 @@ For an overview of **Collabortive SLAM**, checkout the Survey ([Towards Collabor
 All data from individual robots or sensors are sent to a central server or unit. The central server processes the data to create a unified map and determine each robot's location. 
   * **CCM-SLAM**: Robust and efficient centralized collaborative monocular simultaneous localization and mapping for robotic team *JFR, 2019* [[Paper](https://www.research-collection.ethz.ch/handle/20.500.11850/313259)] [[Code](https://github.com/VIS4ROB-lab/ccm_slam?tab=readme-ov-file)]
   * **maplab 2.0** – a modular and multi-modal mapping framework. *RA-L, 2022* [[Paper](https://arxiv.org/abs/2212.00654)] [[Code](https://github.com/ethz-asl/maplab)]
-  * **Lamp 2.0**: A robust multi-robot slam system for operation in challenging large-scale underground environments. *RA-L, 2022* [[Paper](https://arxiv.org/abs/2205.13135)] [[Code](https://github.com/NeBula-Autonomy/LAMP)]
-  * **Edge robotics**: Edge-computing-accelerated multirobot simultaneous localization and mapping. *IoT-J, 2022* [[Paper](https://ieeexplore.ieee.org/abstract/document/9693970)]
+  * **Lamp 2.0**: A robust multi-robot slam system for operation in challenging large-scale underground environments, *RA-L, 2022* [[Paper](https://arxiv.org/abs/2205.13135)] [[Code](https://github.com/NeBula-Autonomy/LAMP)]
+  * **Edge robotics**: Edge-computing-accelerated multirobot simultaneous localization and mapping, *IoT-J, 2022* [[Paper](https://ieeexplore.ieee.org/abstract/document/9693970)]
   * **COVINS-G**: A Generic Back-end for Collaborative Visual-Inertial SLAM, *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9585827)] [[Code](https://github.com/VIS4ROB-lab/covins)]
   * Robust Map Fusion with Visual Attention Utilizing Multi-agent Rendezvous,  *ICRA, 2023* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10161072)]
   * **AdaptSLAM**: Edge-Assisted Adaptive SLAM with Resource Constraints via Uncertainty Minimization, *INFOCOM, 2023* [[Paper](https://arxiv.org/abs/2301.04620)] [[Code](https://github.com/i3tyc/AdaptSLAM)]
@@ -38,18 +38,18 @@ All data from individual robots or sensors are sent to a central server or unit.
   * Edge-Assisted Multi-Robot Visual-Inertial SLAM With Efficient Communication  *T-ASE, 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10472967)]
   * **CCMD-SLAM**: Communication-Efficient Centralized Multi-Robot Dense SLAM with Real-Time Point Cloud Maintenance *TIM, 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10530544)]
   * **CMD-SLAM**: A Fast Low-bandwidth Centralized Multi-robot Direct Stereo SLAM *IV, 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10588625)]
-  * **(RCO-SLAM)** Robust Collaborative Visual-Inertial SLAM for Mobile Augmented Reality *TVCG, 2024* [[Paper](https://ieeexplore.ieee.org/document/10670086)]
+  * **RCO-SLAM** Robust Collaborative Visual-Inertial SLAM for Mobile Augmented Reality *TVCG, 2024* [[Paper](https://ieeexplore.ieee.org/document/10670086)]
 
 ## Decentralized SLAM
-Each robot operates independently, creating its own map and determining its own location. Robots may occasionally share map information with others upon encounter.
+Each robot operates independently, creating its own map and determining its own location, Robots may occasionally share map information with others upon encounter.
   * **Data-Efficient Decentralized Visual SLAM**  *ICRA, 2018* [[Paper](https://ieeexplore.ieee.org/abstract/document/8461155)] [[Code](https://github.com/uzh-rpg/dslam_open)]
 
   * **DOOR-SLAM**: Distributed, Online, and Outlier Resilient SLAM for Robotic Teams, *RA-L, 2020* [[Paper](https://arxiv.org/abs/1909.12198)] [[Code](https://github.com/MISTLab/DOOR-SLAM)]
   * **Omni-swarm**: A decentralized omnidirectional visual–inertial–uwb state estimation system for aerial swarms [[Paper](https://arxiv.org/abs/2103.04131)] [[Code](https://github.com/HKUST-Aerial-Robotics/Omni-swarm)]
   * **CoVOR-SLAM**: Cooperative SLAM using Visual Odometry and Ranges for Multi-Robot Systems, *arxiv, 2023*[[Paper](https://arxiv.org/abs/2311.12580)]
 
-  * Cross-Agent Relocalization for Decentralized Collaborative SLAM, *ICRA, 2023*. [[Paper](https://ieeexplore.ieee.org/abstract/document/10160941)] [[Code](https://github.com/VIS4ROB-lab/decoSLAM)]  
-  * **Swarm-SLAM**:Sparse Decentralized Collaborative Simultaneous Localization and Mapping Framework for Multi-Robot Systems, *RA-L, 2024*. [[Paper](https://arxiv.org/abs/2301.06230)] [[Code](https://github.com/MISTLab/Swarm-SLAM)]
+  * Cross-Agent Relocalization for Decentralized Collaborative SLAM, *ICRA, 2023*, [[Paper](https://ieeexplore.ieee.org/abstract/document/10160941)] [[Code](https://github.com/VIS4ROB-lab/decoSLAM)]  
+  * **Swarm-SLAM**:Sparse Decentralized Collaborative Simultaneous Localization and Mapping Framework for Multi-Robot Systems, *RA-L, 2024*, [[Paper](https://arxiv.org/abs/2301.06230)] [[Code](https://github.com/MISTLab/Swarm-SLAM)]
   * **Multi S-Graphs**:an Efficient Real-time Distributed Semantic-Relational Collaborative SLAM, *RA-L, 2024* [[Paper](https://arxiv.org/abs/2401.05152)] [[Code](https://github.com/snt-arg/multi_s_graphs_docker)]
   * Decentralized state estimation: An approach using pseudomeasurements and preintegration *IJRR, 2024* [[Paper](https://journals.sagepub.com/doi/full/10.1177/02783649241230993)] [[Code](https://github.com/XuRobotics/SLIDE_SLAM)]
   * **SlideSLAM**: Sparse, Lightweight, Decentralized Metric-Semantic SLAM for Multi-Robot Navigation *arxiv, 2024* [[Paper](https://arxiv.org/pdf/2406.17249)] 
@@ -71,6 +71,7 @@ In a distributed system, the processing is spread across multiple nodes or agent
   * **IRBCD** Distributed Pose-graph Optimization with Multi-level Partitioning for Collaborative SLAM, *arxiv, 2024* [[Paper](https://arxiv.org/abs/2401.01657)]
   * **Di-NeRF**: Distributed NeRF for Multi-Robot Collaborative Learning with Unknown Relative Poses *arxiv, 2024* [[Paper](https://arxiv.org/abs/2402.01485)]
   * **MAGiC-SLAM**: Multi-Agent Gaussian Globally Consistent SLAM  *arxiv, 2024* [[Paper](https://arxiv.org/abs/2411.16785)]
+  * **MAC-Ego3D**: Multi-Agent Gaussian Consensus for Real-Time Collaborative Ego-Motion and Photorealistic 3D Reconstruction [[Paper](https://arxiv.org/pdf/2412.09723)] [[Code](https://github.com/Xiaohao-Xu/MAC-Ego3D)]
   <!-- ### Multimodal -->
 
 <!-- ## Platform
@@ -78,8 +79,8 @@ In a distributed system, the processing is spread across multiple nodes or agent
 ## Environments -->
 
 ## Datasets & Benchmarks
- * **UTIAS** The UTIAS multi-robot cooperative localization and mapping dataset. *IJRR, 2011* [[Paper](https://journals.sagepub.com/doi/abs/10.1177/0278364911398404] [[Project_page](http://asrl.utias.utoronto.ca/datasets/mrclam/)]
- * **Airmuseum**: a heterogeneous multi-robot dataset for stereo-visual and inertial simultaneous localization and mapping. *MFI, 2020* [[Paper](https://ieeexplore.ieee.org/abstract/document/9235257/)] [[Code](https://github.com/AirMuseumDataset/AirMuseumDataset)]
+ * **UTIAS** The UTIAS multi-robot cooperative localization and mapping dataset, *IJRR, 2011* [[Paper](https://journals.sagepub.com/doi/abs/10.1177/0278364911398404] [[Project_page](http://asrl.utias.utoronto.ca/datasets/mrclam/)]
+ * **Airmuseum**: a heterogeneous multi-robot dataset for stereo-visual and inertial simultaneous localization and mapping, *MFI, 2020* [[Paper](https://ieeexplore.ieee.org/abstract/document/9235257/)] [[Code](https://github.com/AirMuseumDataset/AirMuseumDataset)]
 
   * Ford Multi-AV Seasonal Dataset, *IJRR, 2020* [[Paper](https://github.com/Ford/AVData)] [[Code](https://journals.sagepub.com/doi/full/10.1177/0278364920961451)]
   * **S3E**: A Large-scale Multimodal Dataset for Collaborative SLAM, *arXiv, 2022* [[Paper](https://arxiv.org/abs/2210.13723)] [[Project_page](https://github.com/PengYu-Team/S3E)]
@@ -89,6 +90,7 @@ In a distributed system, the processing is spread across multiple nodes or agent
   * **Customizable-SLAM**: Customizable Perturbation Synthesis for Robust SLAM Benchmarking, *arxiv, 2024* [[Paper](https://arxiv.org/abs/2402.08125)] [[Code](https://github.com/Xiaohao-Xu/SLAM-under-Perturbation)] 
   * **SubT-MRS Dataset**: Pushing SLAM Towards All-weather Environments *CVPR 2024* [[Paper](https://arxiv.org/pdf/2307.07607.pdf)] [[Project_page](https://sairlab.org/datasets/subtmrs)]
   * **CSE-Dataset** A Benchmark Dataset for Collaborative SLAM in Service Environments [[Paper](https://arxiv.org/abs/2411.14775)] [[Code](https://github.com/vision3d-lab/CSE_Dataset)]
+  * **DiTer++**: Diverse Terrain and Multi-modal Dataset for Multi-Robot SLAM in Multi-session Environments *arxiv, 2024* [[Paper](https://arxiv.org/pdf/2412.05839)] [[Project Page](https://sites.google.com/view/diter-plusplus/download)]
 
 ## Submodules
 - Visual Place Recognition
