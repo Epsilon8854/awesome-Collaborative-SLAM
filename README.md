@@ -54,11 +54,12 @@ Each robot operates independently, creating its own map and determining its own 
   * Decentralized state estimation: An approach using pseudomeasurements and preintegration *IJRR, 2024* [[Paper](https://journals.sagepub.com/doi/full/10.1177/02783649241230993)] [[Code](https://github.com/XuRobotics/SLIDE_SLAM)]
   * **SlideSLAM**: Sparse, Lightweight, Decentralized Metric-Semantic SLAM for Multi-Robot Navigation *arxiv, 2024* [[Paper](https://arxiv.org/pdf/2406.17249)] 
   * **Swarm-LIO2**: Decentralized, Efficient LiDAR-inertial Odometry for UAV Swarms  *arxiv, 2024* [[Paper](https://arxiv.org/abs/2409.17798)] [[Code](https://github.com/hku-mars/Swarm-LIO2)]
+  * **DVM-SLAM**: Decentralized Visual Monocular Simultaneous Localization and Mapping for Multi-Agent Systems *arxiv, 2025* [[Paper](https://arxiv.org/abs/2503.04126)] [[Code](https://proroklab.github.io/DVM-SLAM/)]
+
 
 ## Distributed SLAM
 In a distributed system, the processing is spread across multiple nodes or agents. Robots collect data and perform their own localization and mapping, but also communicate and share information with each other to build a comprehensive global map. This could be peer-to-peer or via a central hub.
   * **CoSLAM**: Collaborative Visual SLAM in Dynamic Environments *TPAMI, 2013*[[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6193110)] [[Code](https://github.com/danping/CoSLAM?tab=readme-ov-file)]
-  * **DiSCo-SLAM**: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM With Two-Stage Global-Local Graph Optimization *RA-L, 2021* [[Paper](https://ieeexplore.ieee.org/abstract/document/9662965)] [[Code](https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM)]
   * Multirobot Collaborative Monocular SLAM Utilizing Rendezvous, *T-RO, 2021* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9381949)]
   * Distributed Ranging SLAM for Multiple Robots with Ultra-WideBand and Odometry Measurements *IROS, 2022* [[Paper](https://ieeexplore.ieee.org/abstract/document/9982028)]
   * **Kimera-multi**: Robust, distributed, dense metric-semantic slam for multi-robot systems, *T-RO, 2022* [[Paper](http://ieeexplore.ieee.org/abstract/document/9686955)] [[Code](https://github.com/MIT-SPARK/Kimera-Multi)]
@@ -70,8 +71,8 @@ In a distributed system, the processing is spread across multiple nodes or agent
   * A Robot Web for DistributedMany-Device Localization *T-RO 2023* [[Paper](https://ieeexplore.ieee.org/abstract/document/10286058)]
   * **IRBCD** Distributed Pose-graph Optimization with Multi-level Partitioning for Collaborative SLAM, *arxiv, 2024* [[Paper](https://arxiv.org/abs/2401.01657)]
   * **Di-NeRF**: Distributed NeRF for Multi-Robot Collaborative Learning with Unknown Relative Poses *arxiv, 2024* [[Paper](https://arxiv.org/abs/2402.01485)]
-  * **MAGiC-SLAM**: Multi-Agent Gaussian Globally Consistent SLAM  *arxiv, 2024* [[Paper](https://arxiv.org/abs/2411.16785)]
-  * **MAC-Ego3D**: Multi-Agent Gaussian Consensus for Real-Time Collaborative Ego-Motion and Photorealistic 3D Reconstruction [[Paper](https://arxiv.org/pdf/2412.09723)] [[Code](https://github.com/Xiaohao-Xu/MAC-Ego3D)]
+  * **MAGiC-SLAM**: Multi-Agent Gaussian Globally Consistent SLAM  *CVPR, 2025* [[Paper](https://arxiv.org/abs/2411.16785)]
+  * **MAC-Ego3D**: Multi-Agent Gaussian Consensus for Real-Time Collaborative Ego-Motion and Photorealistic 3D Reconstruction *arxiv, 2024* [[Paper](https://arxiv.org/pdf/2412.09723)] [[Code](https://github.com/Xiaohao-Xu/MAC-Ego3D)]
   <!-- ### Multimodal -->
 
 <!-- ## Platform
@@ -95,3 +96,7 @@ In a distributed system, the processing is spread across multiple nodes or agent
 ## Submodules
 - Visual Place Recognition
   * Collaborative Visual Place Recognition through Federated Learning *CVPRW 2024* [[Paper](https://openaccess.thecvf.com/content/CVPR2024W/FedVision-2024/html/Dutto_Collaborative_Visual_Place_Recognition_through_Federated_Learning_CVPRW_2024_paper.html)] 
+
+- Online reconsturction
+  * MACIM: Multi-Agent Collaborative Implicit Mapping *RA-L 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10476626)] 
+
