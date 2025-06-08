@@ -73,6 +73,7 @@ In a distributed system, the processing is spread across multiple nodes or agent
   * **Di-NeRF**: Distributed NeRF for Multi-Robot Collaborative Learning with Unknown Relative Poses *arxiv, 2024* [[Paper](https://arxiv.org/abs/2402.01485)]
   * **MAGiC-SLAM**: Multi-Agent Gaussian Globally Consistent SLAM  *CVPR, 2025* [[Paper](https://arxiv.org/abs/2411.16785)]
   * **MAC-Ego3D**: Multi-Agent Gaussian Consensus for Real-Time Collaborative Ego-Motion and Photorealistic 3D Reconstruction *arxiv, 2024* [[Paper](https://arxiv.org/pdf/2412.09723)] [[Code](https://github.com/Xiaohao-Xu/MAC-Ego3D)]
+  * **MNE-SLAM: Multi-Agent Neural SLAM for Mobile Robots**: Multi-Agent Neural SLAM for Mobile Robots [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Deng_MNE-SLAM_Multi-Agent_Neural_SLAM_for_Mobile_Robots_CVPR_2025_paper.html)]
   <!-- ### Multimodal -->
 
 <!-- ## Platform
