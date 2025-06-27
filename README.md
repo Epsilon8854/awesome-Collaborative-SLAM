@@ -74,6 +74,7 @@ In a distributed system, the processing is spread across multiple nodes or agent
   * **MAGiC-SLAM**: Multi-Agent Gaussian Globally Consistent SLAM  *CVPR, 2025* [[Paper](https://arxiv.org/abs/2411.16785)]
   * **MAC-Ego3D**: Multi-Agent Gaussian Consensus for Real-Time Collaborative Ego-Motion and Photorealistic 3D Reconstruction *arxiv, 2024* [[Paper](https://arxiv.org/pdf/2412.09723)] [[Code](https://github.com/Xiaohao-Xu/MAC-Ego3D)]
   * **MNE-SLAM: Multi-Agent Neural SLAM for Mobile Robots**: Multi-Agent Neural SLAM for Mobile Robots [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Deng_MNE-SLAM_Multi-Agent_Neural_SLAM_for_Mobile_Robots_CVPR_2025_paper.html)]
+  * **MCN-SLAM**: Multi-Agent Collaborative Neural SLAM with Hybrid Implicit Neural Scene Representation [[Paper](https://www.arxiv.org/abs/2506.18678)] [[Code](https://github.com/dtc111111/mcnslam)]
   <!-- ### Multimodal -->
 
 <!-- ## Platform
