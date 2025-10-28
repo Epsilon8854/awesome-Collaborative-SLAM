@@ -39,7 +39,8 @@ All data from individual robots or sensors are sent to a central server or unit.
   * **CCMD-SLAM**: Communication-Efficient Centralized Multi-Robot Dense SLAM with Real-Time Point Cloud Maintenance *TIM, 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10530544)]
   * **CMD-SLAM**: A Fast Low-bandwidth Centralized Multi-robot Direct Stereo SLAM *IV, 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10588625)]
   * **RCO-SLAM** Robust Collaborative Visual-Inertial SLAM for Mobile Augmented Reality *TVCG, 2024* [[Paper](https://ieeexplore.ieee.org/document/10670086)]
-  * **GRAND-SLAM**: Local Optimization for Globally Consistent Large-Scale Multi-Agent Gaussian SLAM *TMC, 2025 [[Paper]](https://ieeexplore.ieee.org/abstract/document/10918818)
+  * **GRAND-SLAM**: Local Optimization for Globally Consistent Large-Scale Multi-Agent Gaussian SLAM *arxiv, 2025 [[Paper](https://arxiv.org/abs/2506.18885)]
+  * Streamlining Data Transfer in Collaborative SLAM Through Bandwidth-Aware Map Distillation *TMC, 2025 [[Paper](https://ieeexplore.ieee.org/abstract/document/10918818)]
 
 ## Decentralized SLAM
 Each robot operates independently, creating its own map and determining its own location, Robots may occasionally share map information with others upon encounter.
@@ -81,6 +82,7 @@ In a distributed system, the processing is spread across multiple nodes or agent
   * **MAC-Ego3D**: Multi-Agent Gaussian Consensus for Real-Time Collaborative Ego-Motion and Photorealistic 3D Reconstruction *CVPR, 2025* [[Paper](https://arxiv.org/pdf/2412.09723)] [[Code](https://github.com/Xiaohao-Xu/MAC-Ego3D)]
   * **MNE-SLAM: Multi-Agent Neural SLAM for Mobile Robots**: Multi-Agent Neural SLAM for Mobile Robots *CVPR, 2025* [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Deng_MNE-SLAM_Multi-Agent_Neural_SLAM_for_Mobile_Robots_CVPR_2025_paper.html)]
   * **MCN-SLAM**: Multi-Agent Collaborative Neural SLAM with Hybrid Implicit Neural Scene Representation [[Paper](https://www.arxiv.org/abs/2506.18678)] [[Code](https://github.com/dtc111111/mcnslam)]
+  * **OpenMulti**: Open-Vocabulary Instance-Level Multi-Agent Distributed Implicit Mapping [[RA-L, 2025](https://ieeexplore.ieee.org/abstract/document/11122297)]
   <!-- ### Multimodal -->
 
 <!-- ## Platform
