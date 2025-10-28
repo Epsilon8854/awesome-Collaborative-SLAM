@@ -39,6 +39,7 @@ All data from individual robots or sensors are sent to a central server or unit.
   * **CCMD-SLAM**: Communication-Efficient Centralized Multi-Robot Dense SLAM with Real-Time Point Cloud Maintenance *TIM, 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10530544)]
   * **CMD-SLAM**: A Fast Low-bandwidth Centralized Multi-robot Direct Stereo SLAM *IV, 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10588625)]
   * **RCO-SLAM** Robust Collaborative Visual-Inertial SLAM for Mobile Augmented Reality *TVCG, 2024* [[Paper](https://ieeexplore.ieee.org/document/10670086)]
+  * **GRAND-SLAM**: Local Optimization for Globally Consistent Large-Scale Multi-Agent Gaussian SLAM *TMC, 2025 [[Paper]](https://ieeexplore.ieee.org/abstract/document/10918818)
 
 ## Decentralized SLAM
 Each robot operates independently, creating its own map and determining its own location, Robots may occasionally share map information with others upon encounter.
