@@ -65,7 +65,7 @@ Each robot operates independently, creating its own map and determining its own 
 
 
 ## Distributed SLAM
-In a distributed system, the processing is spread across multiple nodes or agents. Robots collect data and perform their own localization and mapping, but also communicate and share information with each other to build a comprehensive global map. This could be peer-to-peer or via a central hub.
+In a distributed system, the processing is spread across multiple nodes or agents. Robots collect data and perform their own localization and mapping, but also communicate and share information with each other through constant communication to build a comprehensive global map.
   * **CoSLAM**: Collaborative Visual SLAM in Dynamic Environments *TPAMI, 2013*[[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6193110)] [[Code](https://github.com/danping/CoSLAM?tab=readme-ov-file)]
   * Multirobot Collaborative Monocular SLAM Utilizing Rendezvous, *T-RO, 2021* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9381949)]
   * Distributed Ranging SLAM for Multiple Robots with Ultra-WideBand and Odometry Measurements *IROS, 2022* [[Paper](https://ieeexplore.ieee.org/abstract/document/9982028)]
@@ -83,6 +83,7 @@ In a distributed system, the processing is spread across multiple nodes or agent
   * **MNE-SLAM: Multi-Agent Neural SLAM for Mobile Robots**: Multi-Agent Neural SLAM for Mobile Robots *CVPR, 2025* [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Deng_MNE-SLAM_Multi-Agent_Neural_SLAM_for_Mobile_Robots_CVPR_2025_paper.html)]
   * **MCN-SLAM**: Multi-Agent Collaborative Neural SLAM with Hybrid Implicit Neural Scene Representation [[Paper](https://www.arxiv.org/abs/2506.18678)] [[Code](https://github.com/dtc111111/mcnslam)]
   * **OpenMulti**: Open-Vocabulary Instance-Level Multi-Agent Distributed Implicit Mapping [[RA-L, 2025](https://ieeexplore.ieee.org/abstract/document/11122297)]
+  * **CoMA-SLAM**: Collaborative Multi-Agent Gaussian SLAM with Geometric Consistency [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37283)] [[Code](https://github.com/npu-chenlin/CoMA-SLAM)]
   <!-- ### Multimodal -->
 
 <!-- ## Platform
