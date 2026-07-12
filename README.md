@@ -41,6 +41,10 @@ All data from individual robots or sensors are sent to a central server or unit.
   * **RCO-SLAM** Robust Collaborative Visual-Inertial SLAM for Mobile Augmented Reality *TVCG, 2024* [[Paper](https://ieeexplore.ieee.org/document/10670086)]
   * **GRAND-SLAM**: Local Optimization for Globally Consistent Large-Scale Multi-Agent Gaussian SLAM *arxiv, 2025 [[Paper](https://arxiv.org/abs/2506.18885)]
   * Streamlining Data Transfer in Collaborative SLAM Through Bandwidth-Aware Map Distillation *TMC, 2025 [[Paper](https://ieeexplore.ieee.org/abstract/document/10918818)]
+  * **CPL-SLAM**: Centralized Collaborative Multi-Robot Visual-Inertial SLAM Using Point-and-Line Features, *IoT-J, 2025* [[Paper](https://ieeexplore.ieee.org/document/10915203)]
+  * **Sparse Hierarchical LiDAR Bundle Adjustment** for Online Collaborative Localization and Mapping, *RA-L, 2025* [[Paper](https://doi.org/10.1109/LRA.2025.3557298)]
+  * **Above and Below**: Heterogeneous Multi-Robot SLAM across Surface and Underwater Domains, *ICRA, 2026* [[Paper](https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#thi1i_410)]
+  * **TWC-SLAM**: Multi-Agent Cooperative SLAM with Text Semantics and WiFi Features Integration for Similar Indoor Environments, *IROS, 2025* [[Paper](https://ras.papercept.net/conferences/conferences/IROS25/program/IROS25_ContentListWeb_2.html#webt1_05)]
 
 ## Decentralized SLAM
 Each robot operates independently, creating its own map and determining its own location, Robots may occasionally share map information with others upon encounter.
@@ -60,6 +64,9 @@ Each robot operates independently, creating its own map and determining its own 
   * **GRAND-SLAM**: Local Optimization for Globally Consistent Large-Scale Multi-Agent Gaussian SLAM *arxiv, 2025* [[Paper](https://arxiv.org/abs/2506.18885)]
   * **Cluster-ALIV**: Aerial LiDAR-Inertia-Visual Dense Reconstruction for Cluster UAV [[Paper](https://ieeexplore.ieee.org/abstract/document/10960656)]
   * **HAMMER**: Heterogeneous, Multi-Robot Semantic Gaussian Splatting *RA-L, 2025* [[Paper](https://arxiv.org/abs/2501.14147)]
+  * **D^2SLAM**: Decentralized and Distributed Collaborative Visual-Inertial SLAM System for Aerial Swarm, *T-RO, 2024* [[Paper](https://doi.org/10.1109/TRO.2024.3422003)] [[Code](https://github.com/HKUST-Aerial-Robotics/D2SLAM)]
+  * **Multi-Robot Object SLAM Using Distributed Variational Inference**, *RA-L, 2024* [[Paper](https://doi.org/10.1109/LRA.2024.3451389)] [[Code](https://github.com/intrepidChw/distributed_msckf)]
+  * **Ultra-Lightweight Collaborative SLAM for Robot Swarms**, *IEEE Access, 2025* [[Paper](https://ieeexplore.ieee.org/document/11016752)]
 
 
 
@@ -84,6 +91,12 @@ In a distributed system, the processing is spread across multiple nodes or agent
   * **MCN-SLAM**: Multi-Agent Collaborative Neural SLAM with Hybrid Implicit Neural Scene Representation [[Paper](https://www.arxiv.org/abs/2506.18678)] [[Code](https://github.com/dtc111111/mcnslam)]
   * **OpenMulti**: Open-Vocabulary Instance-Level Multi-Agent Distributed Implicit Mapping [[RA-L, 2025](https://ieeexplore.ieee.org/abstract/document/11122297)]
   * **CoMA-SLAM**: Collaborative Multi-Agent Gaussian SLAM with Geometric Consistency [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37283)] [[Code](https://github.com/npu-chenlin/CoMA-SLAM)]
+  * **CDC-SLAM**: Switchable Centralized and Distributed Collaborative LiDAR SLAM Framework for Robotic Swarms, *ICRA, 2026* [[Paper](https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html#tui1i_153)]
+  * **DRACo-SLAM2**: Distributed Robust Acoustic Communication-Efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams with Object Graph Matching, *IROS, 2025* [[Paper](https://doi.org/10.1109/IROS60139.2025.11246631)]
+  * **ROBO**: Overlapping Domain Decomposition for Distributed Pose Graph Optimization, *ICRA, 2026* [[Paper](https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html#tui2i_112)]
+  * **Contractive Belief Sharing**: Distributed Pose Graph Optimization via Contractive Belief Sharing, *RA-L, 2026* [[Paper](https://ieeexplore.ieee.org/document/11248893)]
+  * **UDON**: Uncertainty-Weighted Distributed Optimization for Multi-Robot Neural Implicit Mapping under Extreme Communication Constraints, *ICRA, 2026* [[Paper](https://iconlab.negarmehr.com/UDON/)]
+  * **ID(O)**: Mapping Data Quantization for Bathymetric Collaborative SLAM, *T-RO, 2026* [[Paper](https://doi.org/10.1109/TRO.2025.3641755)]
   <!-- ### Multimodal -->
 
 <!-- ## Platform
@@ -103,10 +116,16 @@ In a distributed system, the processing is spread across multiple nodes or agent
   * **SubT-MRS Dataset**: Pushing SLAM Towards All-weather Environments *CVPR 2024* [[Paper](https://arxiv.org/pdf/2307.07607.pdf)] [[Project_page](https://sairlab.org/datasets/subtmrs)]
   * **CSE-Dataset** A Benchmark Dataset for Collaborative SLAM in Service Environments [[Paper](https://arxiv.org/abs/2411.14775)] [[Code](https://github.com/vision3d-lab/CSE_Dataset)]
   * **DiTer++**: Diverse Terrain and Multi-modal Dataset for Multi-Robot SLAM in Multi-session Environments *ICRA, 2025* [[Paper](https://arxiv.org/pdf/2412.05839)] [[Project Page](https://sites.google.com/view/diter-plusplus/download)]
+  * **COSMO-Bench**: A Benchmark for Collaborative SLAM Optimization, *ICRA, 2026* [[Paper](https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html#wei1i_31)] [[Project Page](https://www.cosmobench.com/)]
+  * **CU-Multi**: A Dataset for Multi-Robot Collaborative Perception, *ICRA, 2026* [[Paper](https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html#wei1i_319)]
+  * **Multi-Robot Decentralized Collaborative SLAM in Planetary Analogue Environments**: Dataset, Challenges, and Lessons Learned, *T-FR, 2025* [[Paper](https://ieeexplore.ieee.org/document/11071964)]
 
 ## Submodules
 - Visual Place Recognition
   * Collaborative Visual Place Recognition through Federated Learning *CVPRW 2024* [[Paper](https://openaccess.thecvf.com/content/CVPR2024W/FedVision-2024/html/Dutto_Collaborative_Visual_Place_Recognition_through_Federated_Learning_CVPRW_2024_paper.html)] 
+  * **FLOCC-SLAM**: 3D Foundation Model-Based Loop Closing for Decentralized Collaborative SLAM, *RA-L, 2025* [[Paper](https://doi.org/10.1109/LRA.2025.3609204)]
+  * **Markerless Robot Detection and 6D Pose Estimation for Multi-Agent SLAM**, *ICRA, 2026* [[Paper](https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#thi2i_184)]
+  * **ROMAN**: Open-Set Object Map Alignment for Robust View-Invariant Global Localization, *RSS, 2025* [[Paper](https://www.roboticsproceedings.org/rss21/p029.html)] [[Project Page](https://acl.mit.edu/roman/)]
 
 - Online reconsturction
   * MACIM: Multi-Agent Collaborative Implicit Mapping *RA-L 2024* [[Paper](https://ieeexplore.ieee.org/abstract/document/10476626)] 
