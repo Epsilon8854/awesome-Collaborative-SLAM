@@ -45,6 +45,7 @@ All data from individual robots or sensors are sent to a central server or unit.
   * **Sparse Hierarchical LiDAR Bundle Adjustment** for Online Collaborative Localization and Mapping, *RA-L, 2025* [[Paper](https://doi.org/10.1109/LRA.2025.3557298)]
   * **Above and Below**: Heterogeneous Multi-Robot SLAM across Surface and Underwater Domains, *ICRA, 2026* [[Paper](https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#thi1i_410)]
   * **TWC-SLAM**: Multi-Agent Cooperative SLAM with Text Semantics and WiFi Features Integration for Similar Indoor Environments, *IROS, 2025* [[Paper](https://ras.papercept.net/conferences/conferences/IROS25/program/IROS25_ContentListWeb_2.html#webt1_05)]
+  * **MAGiSt3R**: Multi-Agent Feed-forward 3D Reconstruction from Monocular RGB Videos, *ECCV, 2026* [[Paper](https://eccv.ecva.net/virtual/2026/poster/3770)] [[Project page](https://zorangong.github.io/magist3r_page/)]
 
 ## Decentralized SLAM
 Each robot operates independently, creating its own map and determining its own location, Robots may occasionally share map information with others upon encounter.
